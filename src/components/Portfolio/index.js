@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectComp from '../Projects';
+import ProjectsCompleted from '../Projects';
 
 
 function Portfolio(props) {

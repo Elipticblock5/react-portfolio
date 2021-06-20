@@ -4,29 +4,34 @@ function ProjectsCompleted() {
   const [projects] = useState([
     {
       name: "AZ 4 Locals",
-      deployedLink: "https://agile-cliffs-08028.herokuapp.com/",
+      desc: "An interactive blog made with Node.js, Express.js, and Handlebars",
+      projectLink: "https://agile-cliffs-08028.herokuapp.com/",
       githubLink: "https://github.com/marcysko/az4locals",
     },
   
     {
       name: "Weather Dashboard",
-      deployedLink: "https://elipticblock5.github.io/hw06weather/",
+      desc: "A weather app using openweather API, and showing search history",
+      projectLink: "https://elipticblock5.github.io/hw06weather/",
       githubLink: "https://github.com/Elipticblock5/hw06weather",
     },
    
     {
       name: "Nate-Budget-Tracker",
-      deployedLink: "https://nate-budget-tracker.herokuapp.com/",
+      desc: "A progressive web app with online and offline capability",
+      projectLink: "https://nate-budget-tracker.herokuapp.com/",
       githubLink: "https://github.com/Elipticblock5/hw19pwa",
     },
     {
         name: "Javascript Quiz APP",
-        deployedLink: "https://elipticblock5.github.io/hw04WebAPI/",
+        desc: "A fun and silly online quiz game with local storage for high scores",
+        projectLink: "https://elipticblock5.github.io/hw04WebAPI/",
         githubLink: "https://github.com/Elipticblock5/hw04WebAPI",
       },
     {
       name: "MongoDB Social Media Backend",
-      deployedLink: "https://www.youtube.com/watch?v=X5d1MYNaAUM",
+      desc: "A Node and Mongo with Mongoose social media backend",
+      projectLink: "https://www.youtube.com/watch?v=X5d1MYNaAUM",
       githubLink: "https://github.com/Elipticblock5/hw18mongo",
     },
   ]);
@@ -43,8 +48,9 @@ function ProjectsCompleted() {
               className="img-thumbnail"
             />
             <h3 className="block">{project.name}</h3>
-            <a className="block" href={project.deployedLink}>Deployed Link</a>
-            <a className="block" href={project.githubLink}>GitHub Repository</a>
+            <h4 className="block">{project.desc}</h4>
+            <a className="block" href={project.projectLink}>Project Link</a>
+            <a className="block" href={project.githubLink}>GitHub Link</a>
           </div>
         ))}
       </div>

@@ -27,7 +27,7 @@ function Nav(props) {
                 setResumeSelect(false);
               }}
             >
-              About Nate Johnson
+              My Story
             </span>
           </li>
           <li className="mx-2">
@@ -42,7 +42,7 @@ function Nav(props) {
                 setResumeSelect(false);
               }}
             >
-              My Portfolio
+              View Portfolio
             </span>
           </li>
           <li className="mx-2">
@@ -72,7 +72,7 @@ function Nav(props) {
                 setResumeSelect(true);
               }}
             >
-              My Resume
+              View My Resume
             </span>
           </li>
         </ul>

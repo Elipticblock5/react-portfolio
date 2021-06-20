@@ -3,6 +3,11 @@ import resume from "../../assets/files/Nathan B. Johnson resume.pdf";
 function Resume() {
   return (
     <section>
+       <div className="resume-container">
+        <a className="resume-download" href={resume} download>
+          Download a copy of my resume here.
+        </a>
+      </div>
       <div className="proficiency-container">
         <h3 className="proficiency-title">A Sample of my Proficiencies:</h3>
         <ul>
@@ -22,11 +27,7 @@ function Resume() {
           <li className="proficiency">React</li>
         </ul>
       </div>
-      <div className="resume-container">
-        <a className="resume-download" href={resume} download>
-          Download a copy of my resume here.
-        </a>
-      </div>
+     
     </section>
   );
 }
