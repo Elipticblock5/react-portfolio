@@ -8,47 +8,47 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [contactSelected, setContactSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
+  const [aboutSelect, setAboutSelect] = useState(true);
+  const [portfolioSelect, setPortfolioSelect] = useState(false);
+  const [contactSelect, setContactSelect] = useState(false);
+  const [resumeSelect, setResumeSelect] = useState(false);
 
   return (
     <div className="page-container">
     <div className="content-wrap">
       <Header
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
+        aboutSelect={aboutSelect}
+        setAboutSelect={setAboutSelect}
+        portfolioSelect={portfolioSelect}
+        setPortfolioSelect={setPortfolioSelect}
+        contactSelect={contactSelect}
+        setContactSelect={setContactSelect}
+        resumeSelect={resumeSelect}
+        setResumeSelect={setResumeSelect}
       ></Header>
       <main>
-        {aboutSelected ? (
+        {aboutSelect ? (
           <>
             <About></About>
           </>
         ) : (
           <></>
         )}
-        {portfolioSelected ? (
+        {portfolioSelect ? (
           <>
             <Portfolio></Portfolio>
           </>
         ) : (
           <></>
         )}
-        {contactSelected ? (
+        {contactSelect ? (
           <>
             <ContactForm></ContactForm>
           </>
         ) : (
           <></>
         )}
-        {resumeSelected ? (
+        {resumeSelect ? (
           <>
             <Resume></Resume>
           </>
