@@ -6,7 +6,7 @@ function About() {
       <h1 id="about" className="px-1">About Nate Johnson</h1>
       <div className="px-1">
         <img
-          src={require("../../assests/images/selfie.jpg").default}
+          src={require("../../assets/images/selfie.jpg").default}
           alt="self-portrait my-2"
           className="self-portrait px-1"
         ></img>

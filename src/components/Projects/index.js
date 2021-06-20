@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ProjectsComp() {
+function ProjectsCompleted() {
   const [projects] = useState([
     {
       name: "AZ 4 Locals",
@@ -33,8 +33,8 @@ function ProjectsComp() {
 
   return (
     <div>
-      <h1 className="project-list-title">Previous Projects:</h1>
-      <div className="flex-row project-list">
+      <h1 className="projects-completed-title">My Previous Projects:</h1>
+      <div className="flex-row project-completed">
         {projects.map((project, i) => (
           <div className="mx-1 project" key={project.name}>
             <img
@@ -52,4 +52,4 @@ function ProjectsComp() {
   );
 }
 
-export default ProjectsComp;
+export default ProjectsCompleted;
