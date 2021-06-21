@@ -53,7 +53,7 @@ function ProjectsCompleted() {
 
   return (
     <div>
-      <h1 className="projects-completed-title">A few of My Previous Projects:</h1>
+      <h1 className="projects-completed-title">Some of my projects from basic to more advanced:</h1>
       <div className="flex-row project-completed">
         {projects.map((project, i) => (
           <div className="mx-1 project" key={project.name}>

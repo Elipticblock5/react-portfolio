@@ -45,7 +45,7 @@ h2 {
   font-style: italic;
   font-style: oblique;
   font-weight: 500;
-  color: var(--primary);
+  color: var(--secondary);
   margin: 5px 0;
   line-height: 1.25;
 }
@@ -169,7 +169,7 @@ nav li {
 }
 nav li:hover {
   color: var(--secondary);
-  background-color: var(--primary);
+  background-color: var(--darker);
 }
 
 textarea {
@@ -365,9 +365,9 @@ header {
 }
 
 footer {
-  position: center;
+  position: absolute;
   bottom: 0;
-  width: 75%;
+  width: 100%;
   height: 2rem;
 }
 
