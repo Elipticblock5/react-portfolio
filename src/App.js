@@ -1,7 +1,7 @@
-//used module 20 project as template
+//used module 20 project photo port as template
 
 import React, { useState } from "react";
-import Navigation from "./components/Nav";
+import Nav from "./components/Nav";
 import MyStory from "./components/About";
 import MyPortfolio from "./components/Projects";
 import ContactForm from "./components/Contact";
@@ -14,7 +14,7 @@ function App() {
   const [portfolioSelect, setPortfolioSelect] = useState(false);
   const [contactSelect, setContactSelect] = useState(false);
   const [resumeSelect, setResumeSelect] = useState(false);
-//select states used select stated from module 20
+//select states used select stated from module 20 photo port
   return (
     <div className="page-container">
     <div className="content-wrap">

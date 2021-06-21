@@ -1,4 +1,4 @@
-//copied over as templage from module 20 project in canvas, minor changes.
+//copied over as template from module 20 project photo-port in canvas, minor changes.
 
 import React, { useState } from 'react';
 

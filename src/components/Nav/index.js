@@ -1,7 +1,7 @@
-//based on module 20 project
+//based on module 20 project photo port
 import React from "react";
 
-function Navigation(props) {
+function Nav(props) {
   const {
     aboutSelect,
     setAboutSelect,
@@ -26,7 +26,7 @@ function Navigation(props) {
               setResumeSelect(false);
             }}
           >
-            My Story
+            About Me
           </span>
         </li>
         <li className="mx-2">
@@ -73,4 +73,4 @@ function Navigation(props) {
   );
 }
 
-export default Navigation;
+export default Nav;

@@ -1,5 +1,5 @@
 import React from "react";
-
+//basic footer function with linked in and git links and icons
 function Footer() {
     return (
       <footer>
