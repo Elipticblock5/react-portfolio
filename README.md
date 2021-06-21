@@ -6,9 +6,9 @@ Created a single page application web developer portfolio using React technology
 
 ## Screenshot
 
-![ReactPortfolio](src\assets\files\PortSS.PNG)
+![ReactPortfolio](./src/assets/files/PortSS.PNG)
 
 ## Questions
 
 For any questions or inquiries reach out to me at nbjohnson@gmail.com
-Find my GitHub ![Here](https://github.com/Elipticblock5)
+Find my GitHub [Here](https://github.com/Elipticblock5)
