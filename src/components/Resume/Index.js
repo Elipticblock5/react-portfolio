@@ -4,13 +4,23 @@ function MyResume() {
   return (
     <section>
         <div className="resume-container">
+        <img
+          src={require("../../assets/images/Resume.PNG").default}
+          align="center"
+          alt="resume my-2"
+          className="resume px-1"
+        ></img>
+        </div>
+        <div>
+          <br></br>
         <a className="resume-download" href={resume} download>
-          Download a copy of my resume here.
+          <center>Download a copy of my resume here.</center>
         </a>
       </div>
        
       <div className="tech-container">
-        <h4 className="tech-title">Some of my technology proficiencies:</h4>
+        <h4 className="tech-title">The technologies I've learned:</h4>
+        <br></br>
         
         <ul>
           <li>HTML</li>

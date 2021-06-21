@@ -8,8 +8,8 @@ main {
 :root {
   --primary: #664f94;
   --secondary: #c0a785;
-  --tertiary: #e0684b;
-  --light: #fffafa;
+  --tertiary: #baa4d8;
+  --light: #a39a7c;
   --dark: #1d0606;
   --darker: #0e0101;
   --error: rgb(235, 79, 41);
@@ -43,9 +43,9 @@ h1,
 h2 {
   font-family: "Snell Roundhand, cursive", sans-serif;
   font-style: italic;
-  font-style: oblique;
-  font-weight: 500;
-  color: var(--secondary);
+
+  font-weight: 900;
+  color: var(--darker);
   margin: 5px 0;
   line-height: 1.25;
 }
@@ -102,7 +102,7 @@ a:hover {
 }
 
 header {
-  background: var(--secondary-color);
+  background-color: var(--primary);
 }
 
 header a {
@@ -122,7 +122,7 @@ button {
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 button[disabled] {
@@ -162,14 +162,15 @@ li {
 
 nav a:hover {
   color: var(--secondary);
+  background-color: --tertiary;
 }
 
 nav li {
   cursor: pointer;
 }
 nav li:hover {
-  color: var(--secondary);
-  background-color: var(--darker);
+  color: var(--dark);
+  background-color: var(--primary);
 }
 
 textarea {
@@ -228,6 +229,7 @@ textarea {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
   color: var(--primary);
+  font-family: Arial;
 }
 
 .px-2 {
@@ -252,7 +254,7 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: auto;
+  height: 250px;
 
   cursor: pointer;
 }
@@ -314,17 +316,24 @@ a {
 }
 
 .project-list-container {
-  display: relative;
+  display: grid;
 }
 
 .project {
   margin: 20px auto;
   border-style: solid;
+  color: --secondary;
   padding: 15px;
 }
 
-.project-list-title {
+.project-completed {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  text-align: center;
+  border: 1px solid black;
   margin: 30px 40px 10px 40px;
+  color: --secondary;
 }
 
 .block {
@@ -378,23 +387,34 @@ footer {
 }
 
 footer a {
-  max-width: 75px;
-  font-size: 20px;
+  max-width: 50px;
+  font-size: 15px;
   margin: 30px;
 }
 .git::before {
-  content: url("./assets/images/github.svg");
+  content: url("./assets/images/icons8-github.svg");
+  height: 100px;
+  width: 100px;
 }
 
 .linked::before {
-  content: url("./assets/images/linkedin.svg");
+  content: url("./assets/images/icons8-linkedin.svg");
+  height: 100px;
+  font-size: 3.75em;
 }
 
 .page-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 100px;
 }
 
 .content-wrap {
   padding-bottom: 2.5rem;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  color: var(--secondary);
 }

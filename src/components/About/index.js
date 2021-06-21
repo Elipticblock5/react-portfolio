@@ -6,7 +6,7 @@ function MyStory() {
   return (
     <section className="about">
       <h1 id="about" className="px-1">
-        About Me: My Story
+       <center> About Me: My Story</center>
       </h1>
       <br></br>
       <div className="px-1">

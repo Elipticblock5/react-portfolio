@@ -24,17 +24,17 @@ function ProjectsCompleted() {
       githubLink: "https://github.com/Elipticblock5/hw06weather",
     },
 
-    /*{
+    {
       name: "AZ 4 Locals",
       desc: "An interactive blog made with custom login",
       tech: "Tech Used: HTML, CSS, Node, Express, Handlebars.js",
       projectLink: "https://agile-cliffs-08028.herokuapp.com/",
       githubLink: "https://github.com/marcysko/az4locals",
-    }, */
+    }, 
 
     {
       name: "MongoDB Social Media Backend",
-      desc: "A backend environment for a social media webiste",
+      desc: "A backend environment for a social media website",
       tech: "Tech Used: Node, MongoDB, Mongoose, Express",
       projectLink: "https://www.youtube.com/watch?v=X5d1MYNaAUM",
       githubLink: "https://github.com/Elipticblock5/hw18mongo",
@@ -53,7 +53,7 @@ function ProjectsCompleted() {
 
   return (
     <div>
-      <h1 className="projects-completed-title">Some of my projects from basic to more advanced:</h1>
+      <h1 className="projects-completed-title"><center>Some of my projects from basic to more advanced:</center></h1>
       <div className="flex-row project-completed">
         {projects.map((project, i) => (
           <div className="mx-1 project" key={project.name}>
