@@ -63,8 +63,8 @@ function ProjectsCompleted() {
               className="img-thumbnail"
             />
             <h3 className="block">{project.name}</h3>
-            <h4 className="block">{project.desc}</h4>
-            <h4 className="block">{project.tech}</h4>
+            <h6 className="block">{project.desc}</h6>
+            <h6 className="block">{project.tech}</h6>
             <a className="block" href={project.projectLink}>Project Link</a>
             <a className="block" href={project.githubLink}>GitHub Link</a>
           </div>

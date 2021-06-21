@@ -19,7 +19,7 @@ function MyResume() {
       </div>
        
       <div className="tech-container">
-        <h4 className="tech-title">The technologies I've learned:</h4>
+        <h4 className="tech-title">Proficient at the following technologies:</h4>
         <br></br>
         
         <ul>

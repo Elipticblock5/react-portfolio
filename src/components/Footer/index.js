@@ -4,6 +4,8 @@ function Footer() {
     return (
       <footer>
         <div className="footer-container">
+
+          
           
         <a class="linked" a href="https://www.linkedin.com/in/nathan-johnson-467102179/">
             
