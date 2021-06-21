@@ -1,19 +1,39 @@
+//based on mudle 20 photolist components, updated for my projects
+
 import React, { useState } from "react";
 
 function ProjectsCompleted() {
   const [projects] = useState([
+    
     {
-      name: "AZ 4 Locals",
-      desc: "An interactive blog made with Node.js, Express.js, and Handlebars",
-      projectLink: "https://agile-cliffs-08028.herokuapp.com/",
-      githubLink: "https://github.com/marcysko/az4locals",
+      name: "Javascript Quiz APP",
+      desc: "A fun and silly online quiz game with local storage for high scores",
+      projectLink: "https://elipticblock5.github.io/hw04WebAPI/",
+      githubLink: "https://github.com/Elipticblock5/hw04WebAPI",
     },
+    
+    
+   
   
     {
       name: "Weather Dashboard",
       desc: "A weather app using openweather API, and showing search history",
       projectLink: "https://elipticblock5.github.io/hw06weather/",
       githubLink: "https://github.com/Elipticblock5/hw06weather",
+    },
+
+    {
+      name: "AZ 4 Locals",
+      desc: "An interactive blog made with Node.js, Express.js, and Handlebars",
+      projectLink: "https://agile-cliffs-08028.herokuapp.com/",
+      githubLink: "https://github.com/marcysko/az4locals",
+    },
+
+    {
+      name: "MongoDB Social Media Backend",
+      desc: "A Node and Mongo with Mongoose social media backend",
+      projectLink: "https://www.youtube.com/watch?v=X5d1MYNaAUM",
+      githubLink: "https://github.com/Elipticblock5/hw18mongo",
     },
    
     {
@@ -22,23 +42,13 @@ function ProjectsCompleted() {
       projectLink: "https://nate-budget-tracker.herokuapp.com/",
       githubLink: "https://github.com/Elipticblock5/hw19pwa",
     },
-    {
-        name: "Javascript Quiz APP",
-        desc: "A fun and silly online quiz game with local storage for high scores",
-        projectLink: "https://elipticblock5.github.io/hw04WebAPI/",
-        githubLink: "https://github.com/Elipticblock5/hw04WebAPI",
-      },
-    {
-      name: "MongoDB Social Media Backend",
-      desc: "A Node and Mongo with Mongoose social media backend",
-      projectLink: "https://www.youtube.com/watch?v=X5d1MYNaAUM",
-      githubLink: "https://github.com/Elipticblock5/hw18mongo",
-    },
+  
+  
   ]);
 
   return (
     <div>
-      <h1 className="projects-completed-title">My Previous Projects:</h1>
+      <h1 className="projects-completed-title">A few of My Previous Projects:</h1>
       <div className="flex-row project-completed">
         {projects.map((project, i) => (
           <div className="mx-1 project" key={project.name}>

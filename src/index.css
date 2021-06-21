@@ -1,3 +1,5 @@
+/* imported from module 20 photo project, restyled some section, added header and footer styling and tech styling */
+
 main {
   margin: 0 auto;
   max-width: 90%;
@@ -345,16 +347,16 @@ header {
   background-color: #2e0854;
 }
 
-.proficiency-container,
+.tech-container,
 .resume-container {
-  margin: 50px 100px;
+  margin: 75px 125px;
 }
 
-.proficiency-title {
+.tech-title {
   font-size: 40px;
 }
 
-.proficiency {
+.tech {
   font-size: 20px;
 }
 
@@ -363,10 +365,10 @@ header {
 }
 
 footer {
-  position: absolute;
+  position: center;
   bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+  width: 75%;
+  height: 2rem;
 }
 
 .footer-container {

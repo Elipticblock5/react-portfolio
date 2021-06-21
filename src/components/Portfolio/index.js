@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectsCompleted from '../Projects';
 
 
-function Portfolio(props) {
+function MyPortfolio(props) {
   return (
     <section>
       <div>
@@ -12,4 +12,4 @@ function Portfolio(props) {
   );
 }
 
-export default Portfolio;
+export default MyPortfolio;

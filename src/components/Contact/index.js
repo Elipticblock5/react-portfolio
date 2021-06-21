@@ -1,3 +1,5 @@
+//copied over as templage from module 20 project in canvas, minor changes.
+
 import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';

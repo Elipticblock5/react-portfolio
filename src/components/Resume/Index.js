@@ -1,6 +1,6 @@
 import resume from "../../assets/files/Nathan B. Johnson resume.pdf";
 
-function Resume() {
+function MyResume() {
   return (
     <section>
        <div className="resume-container">
@@ -8,23 +8,23 @@ function Resume() {
           Download a copy of my resume here.
         </a>
       </div>
-      <div className="proficiency-container">
-        <h3 className="proficiency-title">A Sample of my Proficiencies:</h3>
+      <div className="tech-container">
+        <h3 className="tech-title">Some of my technologies known:</h3>
         <ul>
-          <li className="proficiency">HTML</li>
-          <li className="proficiency">CSS</li>
-          <li className="proficiency">JavaScript</li>
-          <li className="proficiency">JQuery</li>
-          <li className="proficiency">Bootstrap</li>
-          <li className="proficiency">Web and REST API</li>
-          <li className="proficiency">Node.js</li>
-          <li className="proficiency">Express.js</li>
-          <li className="proficiency">Object Oriented Design</li>
-          <li className="proficiency">NoSQL, MongoDB, Mongoose</li>
-          <li className="proficiency">Handlebars.js</li>
-          <li className="proficiency">MySQL, Sequelize</li>
-          <li className="proficiency">MERN stack development</li>
-          <li className="proficiency">React</li>
+          <li className="tech">HTML</li>
+          <li className="tech">CSS</li>
+          <li className="tech">JavaScript</li>
+          <li className="tech">JQuery</li>
+          <li className="tech">Bootstrap</li>
+          <li className="tech">Web and REST API</li>
+          <li className="tech">Node.js</li>
+          <li className="tech">Express.js</li>
+          <li className="tech">Object Oriented Design</li>
+          <li className="tech">NoSQL, MongoDB, Mongoose</li>
+          <li className="tech">Handlebars.js</li>
+          <li className="tech">MySQL, Sequelize</li>
+          <li className="tech">MERN stack development</li>
+          <li className="tech">React</li>
         </ul>
       </div>
      
@@ -32,4 +32,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default MyResume;

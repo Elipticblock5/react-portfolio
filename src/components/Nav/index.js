@@ -1,6 +1,7 @@
+//based on module 20 project
 import React from "react";
 
-function Nav(props) {
+function Navigation(props) {
   const {
     aboutSelect,
     setAboutSelect,
@@ -42,7 +43,7 @@ function Nav(props) {
                 setResumeSelect(false);
               }}
             >
-              View Portfolio
+              My Portfolio
             </span>
           </li>
           <li className="mx-2">
@@ -72,7 +73,7 @@ function Nav(props) {
                 setResumeSelect(true);
               }}
             >
-              View My Resume
+              My Resume
             </span>
           </li>
         </ul>
@@ -80,4 +81,4 @@ function Nav(props) {
   );
 }
 
-export default Nav;
+export default Navigation;

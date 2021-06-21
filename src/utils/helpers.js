@@ -1,3 +1,5 @@
+//these are from homework module 20, using with contact form 
+
 export function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }

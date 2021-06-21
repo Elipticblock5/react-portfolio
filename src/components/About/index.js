@@ -1,6 +1,8 @@
+//based on module 20, About index.js file
+
 import React from "react";
 
-function About() {
+function MyStory() {
   return (
     <section className="about">
       <h1 id="about" className="px-1">My Story</h1>
@@ -15,7 +17,7 @@ function About() {
         <p className="px-1">
           <p>
           Hello, my name is Nate Johnson and I decided to make the move of 
-          becoming a web developer after 10 years in the insurance industy.
+          becoming a full-stack web developer after 10 years in the insurance industy.
           I have attended the University of Arizona Coding Boot Camp with
           the goal of working as a software developer. I enjoy technology, and 
           I am looking forwarding to using my past experiences in a new career 
@@ -43,4 +45,4 @@ function About() {
   );
 }
 
-export default About;
+export default MyStory;
