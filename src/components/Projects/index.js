@@ -24,13 +24,13 @@ function ProjectsCompleted() {
       githubLink: "https://github.com/Elipticblock5/hw06weather",
     },
 
-    {
+    /*{
       name: "AZ 4 Locals",
       desc: "An interactive blog made with custom login",
       tech: "Tech Used: HTML, CSS, Node, Express, Handlebars.js",
       projectLink: "https://agile-cliffs-08028.herokuapp.com/",
       githubLink: "https://github.com/marcysko/az4locals",
-    },
+    }, */
 
     {
       name: "MongoDB Social Media Backend",
