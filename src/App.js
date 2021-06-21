@@ -1,7 +1,7 @@
 //used module 20 project photo port as template
 
 import React, { useState } from "react";
-import Nav from "./components/Nav";
+//import Nav from "./components/Nav";
 import MyStory from "./components/About";
 import MyPortfolio from "./components/Projects";
 import ContactForm from "./components/Contact";
