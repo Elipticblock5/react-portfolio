@@ -7,8 +7,8 @@ function MyResume() {
         <img
           src={require("../../assets/images/Resume.PNG").default}
           align="center"
-          alt="resume my-2"
-          className="resume px-1"
+          alt="resume"
+          className="resume"
         ></img>
         </center>
         </div>

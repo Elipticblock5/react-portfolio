@@ -100,7 +100,7 @@ a {
 
 a:hover {
   background-color: white;
-  color: var(--darker);
+  color: var(--primary);
 }
 
 header {
@@ -228,8 +228,8 @@ textarea {
 }
 
 .px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
+  padding-right: 5px;
+  padding-left: 5px;
   color: white;
   font-family: Arial;
 }
@@ -263,8 +263,10 @@ a {
 }
 
 .selfie {
-  width: 10rem;
+  width: 15rem;
   height: auto;
+  border: 3px solid black;
+  padding: 3px;
 }
 
 .project-list-container {
@@ -313,9 +315,14 @@ header {
 .tech-container,
 .resume-container {
   /*margin: 75px 125px; */
-  height: 15 rem;
+  height: 10 rem;
   width: auto;
   /*align: center; */
+}
+
+.resume {
+  height: 10 rem;
+  width: auto;
 }
 
 .tech-title {
@@ -333,6 +340,10 @@ header {
   color: var(--tertiary);
 }
 
+.resume-download:hover {
+  background-color: var(--light);
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -343,11 +354,11 @@ footer {
 .footer-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 2;
+  margin-bottom: 2rem;
 }
 
 footer a {
-  max-width: 50px;
+  max-width: 115px;
   font-size: 15px;
   margin: 30px;
 }
