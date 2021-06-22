@@ -12,7 +12,13 @@ function ProjectsCompleted() {
       projectLink: "https://elipticblock5.github.io/hw04WebAPI/",
       githubLink: "https://github.com/Elipticblock5/hw04WebAPI",
     },
-    
+    {
+      name: "Work Day Scheduler",
+      desc: "A calendar application for daily planing",
+      tech: "Tech Used: HTML, CSS, Bootsrap, JQuery,",
+      projectLink: "https://elipticblock5.github.io/hw05workday/",
+      githubLink: "https://github.com/Elipticblock5/hw05workday",
+    },
     
    
   
