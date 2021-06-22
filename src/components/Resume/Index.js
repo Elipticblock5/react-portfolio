@@ -3,13 +3,14 @@ import resume from "../../assets/files/Nathan B. Johnson resume.pdf";
 function MyResume() {
   return (
     <section>
-        <div className="resume-container">
+        <div className="resume-container"><center>
         <img
           src={require("../../assets/images/Resume.PNG").default}
           align="center"
           alt="resume my-2"
           className="resume px-1"
         ></img>
+        </center>
         </div>
         <div>
           <br></br>

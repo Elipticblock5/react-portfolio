@@ -83,6 +83,7 @@ h5 {
 
 h6 {
   font-size: 1rem;
+  color: var(--tertiary);
 }
 
 p {
@@ -98,7 +99,8 @@ a {
 }
 
 a:hover {
-  background-color: var(--secondary);
+  background-color: white;
+  color: var(--darker);
 }
 
 header {
@@ -169,7 +171,7 @@ nav li {
   cursor: pointer;
 }
 nav li:hover {
-  color: var(--dark);
+  color: white;
   background-color: var(--primary);
 }
 
@@ -247,56 +249,6 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
-.img-thumbnail {
-  width: auto;
-  height: 250px;
-
-  cursor: pointer;
-}
-
-.modalBackdrop {
-  background: rgba(24, 11, 11, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
-button {
-  background: var(--primary);
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
 a {
   border-radius: 5px;
   color: var(--primary);
@@ -326,7 +278,7 @@ a {
   padding: 15px;
 }
 
-.project-completed {
+.projects-completed {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
@@ -338,6 +290,8 @@ a {
 
 .block {
   display: block;
+  color: var(--tertiary);
+  text-align: center;
 }
 
 .align-items {
@@ -358,7 +312,10 @@ header {
 
 .tech-container,
 .resume-container {
-  margin: 75px 125px;
+  /*margin: 75px 125px; */
+  height: 15 rem;
+  width: auto;
+  /*align: center; */
 }
 
 .tech-title {
@@ -403,7 +360,7 @@ footer a {
 .linked::before {
   content: url("./assets/images/icons8-linkedin.svg");
   height: 100px;
-  font-size: 3.75em;
+  width: 100px;
 }
 
 .page-container {
