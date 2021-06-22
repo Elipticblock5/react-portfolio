@@ -7,8 +7,8 @@ function MyResume() {
         <img
           src={require("../../assets/images/Resume.PNG").default}
           align="center"
-          alt="resume"
-          className="resume"
+          alt="resumePic"
+          className="flex-row resume"
         ></img>
         </center>
         </div>
@@ -19,7 +19,7 @@ function MyResume() {
         </a>
       </div>
        
-      <div className="tech-container">
+      <div className="flex-row tech-container">
         <h4 className="tech-title">Proficient at the following technologies:</h4>
         <br></br>
         
