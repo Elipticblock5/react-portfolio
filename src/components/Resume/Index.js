@@ -4,6 +4,9 @@ function MyResume() {
   return (
     <section>
         <div className="resume-container"><center>
+        <a className="resume-download" href={resume} download>
+          <center>Download a copy of my resume here.</center>
+        </a>
         <img
           src={require("../../assets/images/Resume.PNG").default}
           align="center"
@@ -14,9 +17,7 @@ function MyResume() {
         </div>
         <div>
           <br></br>
-        <a className="resume-download" href={resume} download>
-          <center>Download a copy of my resume here.</center>
-        </a>
+       
       </div>
        
       <div className="flex-row tech-container">
