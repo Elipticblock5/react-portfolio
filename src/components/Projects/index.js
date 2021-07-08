@@ -54,6 +54,13 @@ function ProjectsCompleted() {
       githubLink: "https://github.com/Elipticblock5/hw19pwa",
     },
   
+    {
+      name: "Coding Challenger",
+      desc: "A social media app coding challenger",
+      tech: "Tech Used: HTML, CSS, Express, Mongoose, MongoDB, Node, GraphQL, React",
+      projectLink: "https://nate-budget-tracker.herokuapp.com/",
+      githubLink: "https://code-challenger-archdev.herokuapp.com/",
+    },
   
   ]);
 
